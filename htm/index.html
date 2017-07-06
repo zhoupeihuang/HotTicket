@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="format-detection" content="telephone=no" />
+		<link href="../../images/favicon.ico" mce_href="../../images/favicon.ico" rel="bookmark" type="image/x-icon">
+		<link href="../../images/favicon.ico" mce_href="../../images/favicon.ico" rel="icon" type="image/x-icon">
+		<link href="../../images/favicon.ico" mce_href="../../images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<title>注册小财迷，触宝有豪礼</title>
+		<link rel="stylesheet" type="text/css" href="../css/GE.css" />
+		<link rel="stylesheet" type="text/css" href="../css/animate.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/me.css" />
+		<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="../js/moblieUtil.js"></script>
+	</head>
+
+	<body class="redbgss">
+		<center>
+			<div class="qhcpbgs">
+				<div class="qhcpHead">
+					<div class="tip1">
+						<img src="../images/aticket10.png" />我的获奖记录
+					</div>
+				</div>
+				<div class="popMsgs">
+					13384943849抽中免费火车票
+				</div>
+				<!--红包背景-->
+				<div class="redPacketBox animated">
+					<div class="smileBox ">
+						
+					</div>
+					<div class="yincbox hides">
+						<div class="redpTitle">
+						恭喜您抽中火车票，<br /> 我们免费送您回家！
+					</div>
+					<div class="hotTicketLittle huochebg">
+						<span class="htl1">2017年01月28日&nbsp;&nbsp;06:39开</span>
+						<span class="htl2">二等座</span>
+						<span class="htl3">上海虹桥站</span>
+						<span class="htl4">G1024</span>
+						<span class="htl5"><img src="../images/ticket14.png"/></span>
+						<span class="htl6">上海虹桥站</span>
+						<span class="htl7">￥553</span>
+						<span class="htl8">我们会尽快和您联系，请保持手机畅通<br />当日联系不上，则视为自动放弃</span>
+					</div>
+					<div class="redpBtnBox">
+						<div class="redpBtn">
+						有福同享
+						</div>
+						 
+					</div>
+					<div class="redpFotber">
+						如有疑问，请拨打400-825-8800
+					</div>
+					</div>
+				</div>
+				<!--红包背景-->
+				<!--点击抢票-->
+				<div class="qhcpBtnBox">
+					<div class="qbb3">
+						<span class="qbb3Jd"></span>
+					</div>
+					<div class="qbb2">今日剩余次数:3次</div>
+				</div>
+
+				<!--点击抢票-->
+			</div>
+			<script>
+				$(function() {
+//						$(".qbb3Jd").addClass("moves");
+//						$(".redPacketBox").addClass("animated tada qe2L")
+//						setTimeout(function() {
+//							$(".qbb3Jd").addClass("left0")
+//						}, 1500)
+						
+					$(".qbb3").html("点宝宝抢票");	
+					$(".qhcpBtnBox").click(function(){
+						var times = 5000;
+						if($(".smileBox").is(":hidden")){
+							$(".smileBox").show()
+							$(".yincbox").hide()
+						}
+						$(".qbb3").html("快给宝宝出票...");	
+						$(".redPacketBox").addClass("animated tadame doudong");
+						$(".qhcpBtnBox").addClass("animated tadame doudong");
+						$(".smileBox").css("background-image","url(../images/3.png)");
+					
+					setTimeout(function(){
+						$(".redPacketBox").removeClass("animated tadame doudong");
+						$(".qhcpBtnBox").removeClass("animated tadame doudong");
+						$(".smileBox").css("background-image","url(../images/2.png)");
+						$(".qbb3").html("嘻，终于抢到了")
+						$(".smileBox").addClass("ffzl");
+					},times);
+					setTimeout(function(){
+						$(".smileBox").hide();
+						$(".qbb3").html("恭喜您获得免费火车票")
+						$(".yincbox").fadeIn("slow");
+					},times+800)
+					})
+				})
+			</script>
+		</center>
+	</body>
+
+</html>

@@ -1,0 +1,2160 @@
+.maxBox {
+	position: relative;
+	margin: 0 auto;
+	width: 16rem;
+	min-height: 3rem;
+}
+
+.redBog {
+	background-color: #d93421;
+}
+.redbgss{
+	background: url(../images/aticket42.jpg) repeat;
+}
+.ticketHeader {
+	width: 16rem;
+	height: 13.35rem;
+	background-image: url(../images/ticket20.png);
+	background-position: center top;
+	background-size: 16rem 13.35rem;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 999;
+}
+
+.ticketMainBox {
+	position: relative;
+	margin: 0 auto;
+	margin-top: -2rem;
+	width: 15rem;
+	min-height: 12.75rem;
+	background-color: #c41700;
+	border-radius: 0.15rem;
+}
+
+.ticketMainBox span {
+	position: relative;
+	display: block;
+}
+
+.ticketLineTitle {
+	height: 1rem;
+	width: 13.25rem;
+	line-height: 1rem;
+	color: #ffe400;
+	font-size: 0.6rem;
+	margin: 0 auto;
+	top: 1.1rem;
+	position: relative;
+}
+
+.ticketLineTitle b {
+	font-weight: normal;
+}
+
+.ticketLine {
+	top: 1.3rem;
+	height: 2rem;
+	width: 13.25rem;
+	margin: 0 auto;
+	margin-bottom: 0.5rem;
+}
+.ticketLineError {
+    top: 0.8rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.4rem;
+    color: white;
+    width: 9rem;
+    text-indent: 0.5rem;
+    text-align: left;
+    text-indent: 0.2rem;
+    float: left;
+    left: 1rem;
+}
+.t12rem{
+	top: 0.8rem !important;
+}
+.ticketLittLine {
+	top: 1.6rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	width: 13.25rem;
+	margin: 0 auto;
+	font-size: 0.5rem;
+	color: #fff;
+}
+
+.ticketLittLine a {
+	color: #FFE400;
+	font-size: 0.5rem;
+}
+
+.ticketBtn {
+	height: 2rem;
+	background-color: #ffe400;
+	border: none;
+	width: 13.25rem;
+	text-align: center;
+	border-radius: 0.2rem;
+	background-image: url(../images/ticket11.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 15rem 2.25rem;
+	color: #d73421;
+	font-size: 0.75rem;
+}
+
+.ticketIpt0 {
+	text-align: center;
+	width: 5.25rem;
+	height: 2rem;
+	border-radius: 0.2rem;
+	background-color: white;
+	border: none;
+	text-align: left;
+	font-size: 0.7rem;
+	text-indent: 0.5rem;
+}
+
+.ticketIpt1 {
+	text-align: center;
+	width: 100%;
+	height: 2rem;
+	border-radius: 0.2rem;
+	background-color: white;
+	border: none;
+	text-align: left;
+	font-size: 0.7rem;
+	text-indent: 0.5rem;
+}
+
+.ticketLine .leftt,
+.ticketLine .centert,
+.ticketLine .rightt {
+	display: inline-block !important;
+	position: absolute;
+	top: 0;
+	height: 2rem;
+}
+
+.ticketLine .leftt {
+	width: 5.25rem;
+	left: 0;
+}
+
+.ticketLine .centert {
+	width: 2.75rem;
+	left: 5.25rem;
+}
+
+.ticketLine .rightt {
+	width: 5.25rem;
+	left: 8rem;
+}
+
+.wangfanicon {
+	display: inline-block;
+	width: 2.75rem;
+	height: 2rem;
+	background-image: url(../images/ticket9.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 1.5rem;
+}
+
+
+/*------------弹窗---------------*/
+
+.hiddScroll {
+	overflow: hidden;
+	height: 100%;
+}
+
+.share5Pop {
+	position: fixed;
+	display: none;
+	background: url(../images/black80.png) repeat;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	top: 0px;
+}
+
+.popBox {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 2rem;
+	width: 13.55rem;
+	height: 20rem;
+}
+
+.popHeader {
+	position: relative;
+	width: 13.55rem;
+	height: 6.05rem;
+	background-image: url(../images/hongbaojun.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 11.5rem 6.05rem;
+}
+
+.popHeader span {
+	position: absolute;
+	width: 1.35rem;
+	height: 1.35rem;
+	right: 1rem;
+	top: 0;
+}
+
+.popMain {
+	position: relative;
+	width: 13.55rem;
+	height: 14.75rem;
+	top: -0.8rem;
+	z-index: -1;
+	background-color: #feefbd;
+	border-radius: 0.3rem;
+}
+
+.popMain .popMainul1 {
+	height: 8.1rem;
+	width: 13.55rem;
+	position: relative;
+}
+
+.popMain .popMainul1 li:nth-child(1) {
+	color: #FD5903;
+	font-size: 0.875rem;
+	text-align: center;
+	width: 12.3rem;
+	height: 1rem;
+	line-height: 1rem;
+	top: 1.35rem;
+	position: relative;
+	font-weight: 800;
+	margin: 0 auto;
+}
+
+.popMain .popMainul1 li:nth-child(2) {
+	text-align: center;
+	width: 11.5rem;
+	height: 4.7rem;
+	top: 1.8rem;
+	position: relative;
+	margin: 0 auto;
+	background-image: url(../images/salequan.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 11.5rem 4.7rem;
+}
+
+.popMain .popMainul1 li:nth-child(2) .leftJE {
+	font-size: 1.9rem;
+	color: #FD5903;
+	position: absolute;
+	height: 2rem;
+	width: 6.85rem;
+	line-height: 2rem;
+	left: 1.25rem;
+	top: 1.4rem;
+	font-family: arial;
+	font-weight: 800;
+	text-align: left;
+}
+
+.popMain .popMainul1 li:nth-child(2) .leftJE span {
+	font-size: 0.875rem;
+	color: #FD5903;
+	position: absolute;
+	height: 1rem;
+	line-height: 1rem;
+	width: 1rem;
+	top: 0.85rem;
+	font-weight: 800;
+}
+
+.popMain .popMainul1 li:nth-child(2) .rightJ {
+	font-size: 0.875rem;
+	color: #FD5903;
+	position: absolute;
+	height: 2.9rem;
+	width: 1rem;
+	line-height: 1rem;
+	top: 0.85rem;
+	right: 1.3rem;
+	word-break: break-all;
+	font-weight: 800;
+}
+
+.popMain .popMainul2 {
+	height: 6.6rem;
+	width: 13.55rem;
+	background-color: white;
+	border-bottom-left-radius: 0.3rem;
+	border-bottom-right-radius: 0.3rem;
+	position: relative;
+}
+
+.popMain .popMainul2 li:nth-child(1) {
+	color: #000;
+	font-size: 0.7rem;
+	text-align: center;
+	width: 12.3rem;
+	height: 2em;
+	line-height: 1rem;
+	top: 1.65rem;
+	position: relative;
+	margin: 0 auto;
+}
+
+.popMain .popMainul2 li:nth-child(1) b {
+	font-size: 0.75rem;
+	color: #FD5903;
+	height: 1rem;
+	line-height: 1rem;
+	width: 1rem;
+	font-weight: 800;
+}
+
+.popMain .popMainul2 li:nth-child(1) span {
+	font-size: 0.7rem;
+	color: #FD5903;
+	height: 0.8rem;
+	line-height: 1rem;
+	width: 1rem;
+	font-weight: 800;
+}
+
+.popMain .popMainul2 li:nth-child(2) {
+	position: absolute;
+	height: 2.2rem;
+	width: 12.3rem;
+	left: 0.6rem;
+	top: 3rem;
+}
+
+.popMain .popMainul2 li:nth-child(2) input[type='button'] {
+	font-size: 0.875rem;
+	color: #fff;
+	text-align: center;
+	height: 2.2rem;
+	width: 12.3rem;
+	line-height: 2.2rem;
+	background-color: #FD5903;
+	border: none;
+	border-radius: 0.3rem;
+}
+
+.popMain .popMainul2 li:nth-child(3) {
+	font-size: 0.5rem;
+	color: #a2a2a2;
+	height: 1rem;
+	width: 10rem;
+	line-height: 1rem;
+	top: 4rem;
+	word-break: break-all;
+	position: relative;
+	margin: 0 auto;
+}
+
+.jt_on {
+	width: 0.6rem;
+	height: 0.6rem;
+	background-image: url(../images/jt01.png);
+	background-size: 0.6rem 1.2rem;
+	background-position: 0 -0.6rem;
+	background-repeat: no-repeat;
+	float: left;
+	font-size: 0px;
+	line-height: 0px;
+	margin-top: 0.1rem;
+	cursor: pointer;
+}
+
+.jt {
+	width: 0.6rem;
+	height: 0.6rem;
+	background-image: url(../images/jt01.png);
+	background-size: 0.6rem 1.2rem;
+	background-position: 0 0rem;
+	background-repeat: no-repeat;
+	float: left;
+	font-size: 0px;
+	line-height: 0px;
+	margin-top: 0.1rem;
+	cursor: pointer;
+}
+
+.leiji {
+	position: relative;
+	margin: 0.3rem auto 0 auto;
+	width: 10rem;
+	font-size: 0.5rem;
+	text-align: center;
+}
+
+
+/*--------------------抽奖-----------------------*/
+
+.LotBox {
+	position: relative;
+	width: 12rem;
+	margin: 3rem auto 0 auto;
+	height: 15rem;
+	border: 1px white solid;
+	border-radius: 0.125rem;
+}
+
+.LotKou {
+	position: absolute;
+	bottom: 2rem;
+	width: 10rem;
+	height: 1rem;
+	border: 1px white dotted;
+	left: 50%;
+	margin-left: -5rem;
+	border-radius: 0.5rem;
+}
+
+.LotBtn {
+	position: relative;
+	width: 12rem;
+	margin: 1rem auto 0 auto;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.8rem;
+	border: 1px white solid;
+	border-radius: 0.125rem;
+}
+
+
+/*--------------------地址选择-----------------------*/
+
+.f234 {
+	background-color: #f2f3f4;
+}
+
+.acBox {
+	background-color: #FFFFFF;
+	min-height: 1rem;
+	width: 16rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+}
+
+.addrChoose {
+	width: 15rem;
+	height: 2.25rem;
+	border-radius: 0.3rem;
+	background-color: white;
+	border: 0.05rem #efefef solid;
+	text-align: left;
+	font-size: 0.7rem;
+	text-indent: 0.3rem;
+}
+
+.ticketGuize {
+	position: relative;
+	margin: 0 auto;
+	top: 0.5rem;
+	width: 15rem;
+	min-height: 12.75rem;
+	background-color: #c41700;
+	border-radius: 0.15rem;
+	padding-bottom: 0.5rem;
+}
+
+.guizeHead {
+	position: relative;
+	margin: 0 auto;
+	top: 0.5rem;
+	width: 6.5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	color: #d63320;
+	font-size: 0.75rem;
+	font-weight: bold;
+	border-radius: 0.15rem;
+	background-image: url(../images/ticket5.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 6.5rem 1.5rem;
+}
+
+.ticketGuize ol {
+	width: 13rem;
+	list-style-type: circle;
+	padding-left: 1rem;
+	padding-top: 1rem;
+}
+
+.ticketGuize ol>li {
+	word-wrap: break-word;
+	word-break: break-all;
+	font-size: 0.55rem;
+	color: #fff;
+	position: relative;
+	padding-bottom: 0.4rem;
+	text-align: left;
+}
+
+.ticketGuize b {
+	background-color: #ffe400;
+	border-radius: 0.325rem;
+	position: absolute;
+	width: 0.65rem;
+	height: 0.65rem;
+	font-size: 0.5rem;
+	line-height: 0.65rem;
+	top: 0.12rem;
+	left: -0.78rem;
+	text-align: center;
+	color: #CC2C06;
+}
+
+.ticketBox {
+	position: relative;
+	top: 0rem;
+	width: 16rem;
+	height: 3.5rem;
+}
+
+.tickerFooter {
+	height: 3.5rem;
+	width: 16rem;
+	position: absolute;
+	background-image: url(../images/ticket218.png);
+	background-position: center;
+	background-repeat: repeat-x;
+	background-size: 16rem 3.5rem;
+	bottom: 0;
+	margin-bottom: 0;
+}
+
+.tickerFooter1 {
+	height: 3.5rem;
+	width: 16rem;
+	position: absolute;
+	background-image: url(../images/ticket18.png);
+	background-position: center;
+	background-repeat: repeat-x;
+	background-size: 16rem 3.5rem;
+	bottom: 0;
+	margin-bottom: 0;
+}
+
+
+/*----------查询列表--------*/
+
+.searchLHeader {
+	/*height: 3.85rem;*/
+	height: 2.5rem;
+	position: relative;
+	width: 16rem;
+	background-color: #D63320;
+	color: #fff;
+}
+
+.grayBg {
+	background-color: #eee;
+}
+
+.searchLHeader span {
+	display: inline;
+	position: absolute;
+}
+
+.slh1 {
+	width: 1rem;
+	height: 1rem;
+	line-height: 1rem;
+	top: 0.7rem;
+	left: 0.75rem;
+}
+.slh1 img{
+	width: 0.55rem;
+	height: 0.95rem;
+}
+.slh2 {
+	width: 4.5rem;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 0.8rem;
+	top: 0.7rem;
+	left: 2.75rem;
+}
+
+.slh3 {
+	width: 1rem;
+	height: 1rem;
+	line-height: .8rem;
+	top: 0.7rem;
+	left: 50%;
+	margin-left: -0.5rem;
+}
+
+.slh4 {
+	width: 4.5rem;
+	height: 1rem;
+	line-height: 1rem;
+	font-size: 0.8rem;
+	top: 0.7rem;
+	right: 2.75rem;
+}
+
+.slh5 {
+	width: 2.2rem;
+	height: 1rem;
+	line-height: 1.1rem;
+	top: 0.7rem;
+	right: 0.75rem;
+	font-size: 0.5rem;
+}
+
+.slh6 {
+	width: 4.3rem;
+	height: 1rem;
+	top: 2.25rem;
+	left: 0.75rem;
+	font-size: 0.8rem;
+}
+
+.slh7 {
+	width: 5.6rem;
+	height: 1rem;
+	line-height: 1rem;
+	top: 2.25rem;
+	left: 5.25rem;
+	font-size: 0.6rem;
+	color: #D63320;
+	border: 1px white solid;
+	border-radius: 0.25rem;
+	background-color: white;
+}
+
+.slh71 {
+	position: absolute;
+	top: 0.2rem;
+	left: 0.6rem;
+	width: 0.6rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+.slh71 img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.slh72 {
+	position: absolute;
+	top: 0.2rem;
+	/*left: 1.5rem;
+	width: 3rem;*/
+	left: 0rem;
+	width: 5rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+
+.slh73 {
+	position: absolute;
+	top: 0.2rem;
+	right: 0.4rem;
+	width: 0.6rem;
+	height: 0.6rem;
+	background-image: url(../images/ticket10.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 0.6rem 0.6rem;
+}
+
+.slh8 {
+	width: 4.3rem;
+	height: 1rem;
+	top: 2.25rem;
+	right: 0.75rem;
+	font-size: 0.8rem;
+}
+
+.searchListBox {
+	width: 16rem;
+	min-height: 3rem;
+	position: relative;
+}
+
+.tickerDBox {
+	position: relative;
+	background-color: white;
+	width: 15.5rem;
+	height: 3rem;
+	margin: 0 auto;
+	margin-top: 0.25rem;
+}
+
+.tickerDBox span {
+	position: absolute;
+	display: inline;
+}
+
+.ticDB1 {
+	left: 0.55rem;
+	top: 0.7rem;
+	width: 4.2rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.6rem;
+	color: #666;
+	text-align: left;
+}
+
+.ticDB2 {
+	left: 4.8rem;
+	top: 0.7rem;
+	width: 3rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.6rem;
+	color: #666;
+}
+.ticDBNone{
+	left: 50%;
+    margin-left: -4rem;
+    text-align: center;
+    top: 0.7rem;
+    width: 8rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.6rem;
+    color: #666;
+}
+
+.ticDB3 {
+	left: 9.4rem;
+	top: 0.7rem;
+	width: 4.2rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.6rem;
+	color: #666;
+	text-align: left;
+}
+
+.ticDB4 {
+	right: 0.9rem;
+	top: 1.25rem;
+	width: 2rem;
+	text-align: right;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.4rem;
+	color: #999;
+}
+
+.ticDB5 {
+	left: 0.55rem;
+	top: 1.75rem;
+	width: 4.2rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.75rem;
+	color: #D63320 !important;
+	font-weight: bold;
+	color: #666;
+	text-align: left;
+}
+
+.ticDB6 {
+	left: 4.75rem;
+	top: 1.3rem;
+	width: 3rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.6rem;
+	color: #666;
+}
+.ticDB6 img{
+	width: 2.7rem;
+	height: 0.35rem;
+}
+.ticDB7 {
+	left: 4.75rem;
+	top: 1.75rem;
+	width: 3rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.5rem;
+	color: #666;
+}
+
+.ticDB8 {
+	left: 9.4rem;
+	top: 1.75rem;
+	width: 4.2rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.6rem;
+	color: #666;
+	text-align: left;
+}
+
+.configMHead {
+	height: 2.75rem;
+	width: 16rem;
+	position: relative;
+	margin: 0 auto;
+}
+
+.configMHead .returnMSG {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	width: 5rem;
+	font-size: 0.6rem;
+	color: white;
+}
+
+
+/*---------火车票---------*/
+
+.hotTicket {
+	height: 9.5rem;
+	width: 15.25rem;
+	position: relative;
+	background-image: url(../images/ticket12.png);
+	background-position: center;
+	background-repeat: repeat-x;
+	background-size: 15.25rem 9.5rem;
+	z-index: 888;
+}
+
+.hotTicket span {
+	position: absolute;
+	display: inline;
+	color: #333;
+}
+
+.hotTic1 {
+	top: 1.35rem;
+	left: 1.25rem;
+	width: 8rem;
+	height: 0.55rem;
+	font-size: 0.55rem;
+	line-height: 0.55rem;
+	text-align: left;
+}
+
+.hotTic2 {
+	top: 1.35rem;
+	right: 1.25rem;
+	width: 3.4rem;
+	height: 0.55rem;
+	font-size: 0.55rem;
+	line-height: 0.55rem;
+	text-align: right;
+}
+
+.hotTic3 {
+	top: 2.75rem;
+	left: 1.25rem;
+	width: 4.75rem;
+	height: 0.85rem;
+	font-size: 0.85rem;
+	line-height: 0.85rem;
+	font-weight: bold;
+	text-align: left;
+}
+
+.hotTic4 {
+	top: 2.75rem;
+	left: 6rem;
+	width: 3.3rem;
+	height: 0.7rem;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	font-weight: bold;
+}
+
+.hotTic5 {
+	top: 3.4rem;
+	left: 50%;
+	width: 3.3rem;
+	height: 0.4rem;
+	font-size: 0.4rem;
+	line-height: 0.4rem;
+	margin-left: -1.65rem;
+	background-image: url(../images/ticket14.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 3.3rem .4rem;
+}
+
+.hotTic6 {
+	top: 2.75rem;
+	right: 1.25rem;
+	width: 4.6rem;
+	height: 0.85rem;
+	font-size: 0.85rem;
+	line-height: 0.85rem;
+	font-weight: bold;
+	text-align: right;
+}
+
+.hotTic7 {
+	top: 4.5rem;
+	left: 1.25rem;
+	width: 8rem;
+	height: 0.7rem;
+	font-size: 0.7rem;
+	line-height: 0.7rem;
+	text-align: left;
+}
+
+.hotTic8 {
+	bottom: 0.7rem;
+	left: 50%;
+	margin-left: -6.6rem;
+	width: 13.2rem;
+	height: 0.45rem;
+	font-size: 0.45rem;
+	line-height: 0.45rem;
+	color: #666 !important;
+}
+
+
+/*---注册框子---*/
+
+.regBox {
+	width: 15rem;
+	min-height: 3rem;
+	position: relative;
+	margin: 0 auto;
+    top: -1.5rem;
+	background-color: #C41700;
+	padding-top: 1.2rem;
+	padding-bottom: 0.8rem;
+	border-radius: 0.15rem;
+}
+
+.regLine {
+	height: 2rem;
+	width: 13.25rem;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 0.5rem;
+	text-align: left;
+}
+.regLineError{
+    top: 0rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.4rem;
+    color: white;
+    width: 3rem;
+    text-indent: 0.5rem;
+    text-align: left;
+    text-indent: 0.2rem;
+    float: left;
+    left: 1rem;
+    position: relative;
+    display: block;
+}
+.ticketIpt2 {
+	text-align: center;
+	width: 8rem;
+	height: 2rem;
+	border-radius: 0.2rem;
+	background-color: white;
+	border: none;
+	text-align: left;
+	font-size: 0.7rem;
+	text-indent: 0.5rem;
+}
+
+.ticketBtn1 {
+	height: 2rem;
+	background-color: #ffe400;
+	border: none;
+	width: 5rem;
+	text-align: center;
+	border-radius: 0.2rem;
+	background-image: url(../images/ticket11.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 15rem 2.25rem;
+	color: #FD5903;
+	font-size: 0.6rem;
+}
+
+.ticketBtn2 {
+	height: 2rem;
+	background-color: #ffe400;
+	border: none;
+	width: 5rem;
+	text-align: center;
+	border-radius: 0.2rem;
+}
+
+.ticketBtn3 {
+	text-align: center;
+	width: 8rem;
+	height: 2rem;
+	background-color: white;
+	border: none;
+	text-align: left;
+	font-size: 0.7rem;
+	text-indent: 0.5rem;
+	border-top-left-radius: 0.2rem;
+	border-bottom-left-radius: 0.2rem;
+}
+
+.yanzmr {
+	float: right;
+	width: 5.25rem;
+	height: 2rem;
+}
+
+.yanzmr img {
+	width: 100%;
+	height: 2rem;
+	border-top-right-radius: 0.2rem;
+	border-bottom-right-radius: 0.2rem;
+}
+
+
+/*---瓦---*/
+
+.waBox {
+	height: 1.25rem;
+	width: 16rem;
+	background-image: url(../images/ticket4.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-size: 0.8rem 1.25rem;
+}
+
+.seeSqBox {
+	height: 3.55rem;
+	width: 9.85rem;
+	margin: 0 auto;
+	margin-top: 0.5rem;
+	line-height: 2.7rem;
+	font-size: 0.65rem;
+	color: #FFE400;
+	background-image: url(../images/ticket2.png);
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-size: 9.85rem 3.55rem;
+	position: relative;
+	z-index: 999;
+}
+
+
+/*奖金记录*/
+
+.bonusList {
+	width: 15rem;
+	height: 13.25rem;
+	margin-top: -0.5rem;
+	background-color: #C41700;
+	position: relative;
+	overflow: hidden;
+}
+
+.bonLine {
+	position: relative;
+	width: 15rem;
+	height: 2.5rem;
+	background-image: url(../images/ticket3.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	background-size: 0.45rem 0.025rem;
+}
+
+.yelFont span {
+	color: #FFE400 !important;
+}
+
+.bonLine span {
+	position: absolute;
+	display: inline;
+	color: white;
+}
+
+.bonl1 {
+	left: 0.75rem;
+	top: 0.6rem;
+	font-size: 0.55rem;
+	height: 0.55rem;
+	line-height: 0.55rem;
+	text-align: left;
+}
+
+.bonl2 {
+	right: 0.75rem;
+	top: 1rem;
+	font-size: 0.55rem;
+	height: 0.55rem;
+	line-height: 0.55rem;
+	text-align: left;
+}
+
+.bonl3 {
+	left: 0.75rem;
+	top: 1.5rem;
+	font-size: 0.55rem;
+	height: 0.55rem;
+	line-height: 0.55rem;
+	text-align: left;
+}
+.bonl4{
+    right: 0.75rem;
+    top: 0.5rem;
+    font-size: 0.55rem;
+    height: 1.55rem;
+    text-align: right;
+}
+.regIcon {
+	position: absolute;
+	width: 1.5rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+	display: inline;
+}
+
+.textI {
+	text-indent: 2rem;
+}
+
+.qhcpbgs {
+	width: 16rem;
+	min-height: 29.45rem;
+	background-image: url(../images/aticket42.jpg);
+	background-position: left top;
+	background-repeat: repeat-y;
+	background-size: 16rem 29.45rem;
+	
+	position: relative;
+	z-index: 10;
+}
+
+.qhcpHead {
+	height: 2.25rem;
+	text-align: right;
+	width: 16rem;
+	z-index: 888;
+}
+
+.tip1 {
+	width: 6rem;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	background-color: #db1600;
+	color: #fff;
+	font-size: 0.7rem;
+	text-align: center;
+	border-radius: 3rem;
+	float: right;
+	margin-right: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+.tip1 img {
+	top: -5rem;
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-top: -5px;
+}
+.t60{
+	top: 1.5rem !important;
+}
+.popMsgs {
+	margin-top: 0.5rem;
+	width: 13.25rem;
+	margin: 0 auto;
+	position: relative;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	background-image: url(../images/aticket8.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 13.25rem 1.25rem;
+	font-size: 0.6rem;
+	color: white;
+	z-index: 999;
+}
+.popMsgs ul li{
+	font-size: 0.5rem;
+	color: #fff;
+	float: left;
+	margin-right: 1rem;
+} 
+.qhcpBg0 {
+	margin-top: 0.5rem;
+	width: 16rem;
+	margin: 0 auto;
+	position: relative;
+	height: 11.6rem;
+	background-image: url(../images/aticket999.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 16rem 11.6rem;
+	z-index: -1;
+	margin-top: -3.5rem;
+}
+.redPNum{
+	position: relative;
+	margin: 0 auto;
+	top: 5.5rem;
+	width:10rem ;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #FFE400;
+}
+.redPNum b{
+	font-size: 0.7rem;
+	font-weight: normal;
+}
+.redPNumTit{
+	position: relative;
+	margin: 0 auto;
+	top: 5.7rem;
+	width:10rem ;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.7rem;
+	color: #FFE400;
+}
+.qhcpBg1 {
+	margin-top: 0.5rem;
+	width: 16rem;
+	margin: 0 auto;
+	position: relative;
+	height: 11.6rem;
+	background-image: url(../images/aticket99.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 16rem 11.6rem;
+	z-index: -1;
+	margin-top: -3.5rem;
+}
+
+.qhcpBg2 {
+	margin-top: 0.5rem;
+	width: 16rem;
+	margin: 0 auto;
+	position: relative;
+	height: 9.6rem;
+	background-image: url(../images/aticket55.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 16rem 9.6rem;
+}
+.qhcpBg3 {
+	top: 2.5rem;
+	margin-bottom:3rem ;
+	width: 8.325rem;
+	margin: 0 auto;
+	position: relative;
+	height: 10.55rem;
+	background-image: url(../images/aticket33.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 8.325rem 10.55rem;
+	margin-bottom: 6rem;
+}
+.qhcpBtnBox {
+	height: 3rem;
+	width: 15rem;
+	color: #fff;
+	position: relative;
+	margin: 0 auto;
+	background-image: url(../images/aticket6.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 15rem 3rem;
+}
+
+.qbb1 {
+	position: absolute;
+	top: 0.6rem;
+	height: 0.85rem;
+	line-height: 0.85rem;
+	width: 12.5rem;
+	left: 50%;
+	margin-left: -6.25rem;
+	font-size: 0.85rem;
+	color: #D63320;
+}
+
+.qbb2 {
+	position: absolute;
+	top: 2rem;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	width: 12.5rem;
+	left: 50%;
+	margin-left: -6.25rem;
+	font-size: 0.65rem;
+	color: #D63320;
+}
+
+.redPacketBox {
+	width: 11.9rem;
+	position: relative;
+	height: 15.5rem;
+	background-image: url(../images/aticket7.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 11.9rem 15.5rem;
+	margin: 0 auto;
+	margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.redpTitle {
+	width: 10.4rem;
+	position: relative;
+	height: 5.8rem;
+	margin: 0 auto;
+	color: #d63320;
+	font-size: 0.7rem;
+	top: 0.7rem;
+}
+
+.hotTicketLittle {
+	width: 10.625rem;
+	position: relative;
+	height: 6.1rem;
+	margin: 0 auto;
+	top: 0rem;
+}
+.hotTicketLittle span {
+	display: inline;
+	position: absolute;
+	color: #333;
+}
+.huochebg{
+	background-image: url(../images/s.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 10.625rem 6.1rem;
+}
+.huochebg2{
+	background-image: url(../images/b.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 10.625rem 6.1rem;
+}
+
+.hotTicketLittle2 {
+	width: 10.625rem;
+	position: relative;
+	height: 6.1rem;
+	margin: 0 auto;
+	top: 0rem;
+}
+.hotTicketLittle2 span {
+	display: inline;
+	position: absolute;
+}
+
+
+.htl1 {
+	left: 0.7rem;
+	top: 0.85rem;
+	width: 6.5rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: left;
+	line-height: 0.5rem;
+	font-size: 0.5rem;
+}
+
+.htl2 {
+	right: 0.7rem;
+	top: 0.85rem;
+	width: 2rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.5rem;
+	text-align: right;
+}
+
+.htl3 {
+	left: 0.7rem;
+	top: 2rem;
+	width: 3.3rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.6rem;
+	text-align: left;
+	font-weight: bold;
+}
+
+.htl6 {
+	right: 0.7rem;
+	top: 2rem;
+	width: 3.3rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.6rem;
+	text-align: right;
+	font-weight: bold;
+}
+
+.htl4 {
+	left: 50%;
+	margin-left: -2rem;
+	top: 1.9rem;
+	width: 4rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.5rem;
+	font-weight: bold;
+}
+
+.htl5 {
+	left: 50%;
+	margin-left: -1.1rem;
+	top: 2.35rem;
+	width: 2.2rem;
+	height: 0.35rem;
+	line-height: 0.35rem;
+}
+
+.htl5 img {
+	width: 100%;
+	height: auto;
+}
+
+.htl7 {
+	left: 0.7rem;
+	top: 3.2rem;
+	width: 6.5rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: left;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.7rem;
+}
+
+.htl8 {
+	left: 50%;
+	margin-left: -4.25rem;
+	bottom: 0.35rem;
+	width: 8.5rem;
+	height: 1.1rem;
+	font-size: 0.4rem;
+	color: #D63320 !important;
+}
+
+.redpBtnBox {
+	height: 1.5rem;
+	line-height: 1.5rem;
+	border: none;
+	width: 10.2rem;
+	text-align: center;
+	color: #FD5903;
+	font-size: 0.6rem;
+	margin-top: 0.2rem;
+	color: white;
+}
+.redL30{
+	margin-left: 0.75rem;
+}
+.redpBtn{
+	height: 1.5rem;
+	line-height: 1.5rem;
+	border: none;
+	width: 4.75rem;
+	text-align: center;
+	border-radius: 0.2rem;
+	background-image: url(../images/aticket1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 4.75rem 1.5rem;
+	color: #FD5903;
+	font-size: 0.6rem;
+	margin-top: 0.2rem;
+	color: white;
+	margin: 0 auto;
+}
+
+.redpFotber {
+	height: 1.25rem;
+	line-height: 1rem;
+	width: 10.4rem;
+	color: #b1630f;
+	font-size: 0.45rem;
+	margin-top: 0.2rem;
+	position: relative;
+}
+
+.qbb3 {
+	position: absolute;
+	top: 0.2rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	width: 7.5rem;
+	left: 50%;
+	margin-left: -3.75rem;
+	font-size: 0.85rem;
+	color: #FFE400;
+	overflow: hidden;
+	z-index: 888;
+}
+.qbb3:after{
+	content: "抢票中...";
+}
+.qbb3Jd {
+	position: absolute;
+	top: 0rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	width: 7.5rem;
+	left: -7.5rem;
+	font-size: 0.85rem;
+	color: #FFE400;
+	border-radius: 2rem;
+	background-image: url(../images/aticket2.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 7.5rem 1.5rem;
+	z-index: -1;
+}
+
+.moves {
+	animation: movesty 1.5s linear 0s 1;
+	transition: All 0.4s ease-in-out;
+	-webkit-transition: All 0.4s ease-in-out;
+	-moz-transition: All 0.4s ease-in-out;
+	-o-transition: All 0.4s ease-in-out;
+}
+
+@keyframes movesty {
+	0% {
+		left: -7.5rem;
+	}
+	25% {
+		left: -6.5rem;
+	}
+	50% {
+		left: -4.5rem;
+	}
+	75% {
+		left: -2.5rem;
+	}
+	100% {
+		left: 0rem;
+	}
+}
+.left0{
+	left: 0rem;
+}
+.packetNum1{
+	width: 10.4rem;
+	left: 50%;
+	top: 0rem;
+	margin-left: -5.2rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	font-size: 0.7rem;
+	color:#D63320 !important;
+}
+.packetNum2{
+	width: 10.4rem;
+	left: 50%;
+	top: 1.9rem;
+	margin-left: -5.2rem;
+	height: 1.65rem;
+	line-height: 1.65rem;
+	font-size: 1.65rem;
+	color:#D63320 !important;
+	font-weight: bold;
+}
+.packetNum3{
+	width: 10.4rem;
+	left: 50%;
+	top: 4.5rem;
+	margin-left: -5.2rem;
+	height: 1.15rem;
+	line-height: 1.15rem;
+	font-size: 0.5rem;
+	color:#D63320 !important;
+	background-color: #FFb400;
+	border-radius: 0.15rem;
+}
+/*------------------------*/
+.prizeListBox{
+	width:16rem ;
+	min-height: 3rem;
+	/*background-color: #eee;*/
+}
+.prizeBox{
+	width: 15rem;
+	height: 2.5rem;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 0.5rem;
+	background-color: white;
+}
+.prizeBox01{
+	width: 15rem;
+	height: 2.5rem;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 0.5rem;
+	background-color: white;
+}
+.linebgs{
+	background-image: url(../images/salequan.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 15rem 2.5rem;
+    background-color: transparent;
+}
+
+.leftContrl{
+	float: left;
+	width: 1rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	position: relative;
+}
+
+.leftContrl i{
+    width: 0.8rem;
+    height: 0.8rem;
+    background-image: url(../images/radios0.png);
+    background-position: 0rem 0rem;
+    background-repeat: no-repeat;
+    background-size: 0.7rem 0.7rem;
+    position: absolute;
+    display: inline;
+    top: 0.9rem;
+    left: 0;
+}
+.lcion{
+	  background-image: url(../images/radios2.png) !important;
+}
+.leftText{
+	height: 2.5rem;
+	width:7rem;
+	color: #333;
+	text-align: left;
+	float: left;
+	
+}
+.leftTextLittle{
+	height: 2.5rem;
+	width:6rem;
+	color: #333;
+	text-align: left;
+	float: left;
+	
+}
+.mf50{
+	margin-left: 0.5rem;
+}
+.mr50{
+	margin-right: 0.5rem;
+}
+.b1{
+    font-size: 0.6rem;
+    color: #D63320;
+    /* margin-top: 0.6rem; */
+    top: 0.5rem;
+    display: block;
+    position: absolute;
+    font-weight: normal;
+}
+.b2{
+    font-size: 0.5rem;
+    color: #333;
+    /* margin-top: 0.6rem; */
+    bottom: 0.5rem;
+    display: block;
+    position: absolute;
+    font-weight: normal;
+}
+.b3{
+    font-size: 0.5rem;
+    color: #999;
+    /* margin-top: 0.6rem; */
+    bottom: 0.5rem;
+    display: block;
+    position: absolute;
+    font-weight: normal;
+}
+.b3 b{
+	color: #D63320;
+	font-weight: normal;
+}
+.b4{
+    font-size: 0.6rem;
+    color: #333;
+    /* margin-top: 0.6rem; */
+    top: 0.5rem;
+    display: block;
+    position: absolute;
+    font-weight: normal;
+}
+.redftt{
+	color: #D63320;
+	font-size: 0.6rem;
+}
+.b5{
+    font-size: 0.6rem;
+    color: #248af5;
+    top: 0.5rem;
+    display: block;
+    position: absolute;
+    font-weight: normal;
+    text-align: right;
+    right: 0px;
+}
+.b6{
+    font-size: 0.5rem;
+    color: #333;
+    /* margin-top: 0.6rem; */
+    bottom: 0.5rem;
+    display: block;
+    position: absolute;
+    font-weight: normal;
+    right: 0;
+}
+.b6 img{
+	width: 0.95rem;
+	height: 0.95rem;
+}
+.rightPic{
+	float: right;
+	width: 1.25rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	position: relative;
+}
+.rightPic img{
+	width: 0.4rem;
+	height: 0.7rem;
+}
+.rightText1{
+	float: right;
+	width: 6.25rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	position: relative;
+	color: #D63320;
+	font-size: 0.6rem;
+	text-align: right;
+}
+.rightText2{
+	float: right;
+	width: 6.25rem;
+	height: 2.5rem;
+	position: relative;
+	text-align: right;
+}
+.rightText3{
+	float: right;
+	width: 5rem;
+	height: 2.5rem;
+	padding-top: 0.4rem;
+	position: relative;
+	color: #D63320;
+	font-size: 0.6rem;
+	text-align: right;
+}
+.rightText3 b{
+	color: #999;
+	font-size: 0.4rem;
+	font-weight: normal;
+}
+.rightText4{
+	float: right;
+	right: -0.7rem;
+	width: 6.25rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	position: relative;
+	color: #D63320;
+	font-size: 0.6rem;
+	text-align: right;
+}
+.leftTextLong{
+	height: 2.5rem;
+	width:12rem;
+	color: #333;
+	text-align: left;
+	float: left;
+}
+.leftTextTitle{
+	height: 2.5rem;
+	width:2.6rem;
+	color: #D63320;
+	font-size: 0.6rem;
+	text-align: center;
+	padding-top: 0.3rem;
+	font-weight: bold;
+	float: left;
+}
+.leftTextLL{
+	height: 2.5rem;
+	width:9.4rem;
+	color: #D63320;
+	font-size: 0.6rem;
+	text-align: left;
+	padding-top: 0.3rem;
+	font-weight: bold;
+	float: left;
+}
+.overFont{
+	color: #ccc !important;
+}
+.btnBottomBox{
+	width: 14.6rem;
+    margin-top: 7rem;
+	min-height: 2.25rem;
+}
+.bbbSty{
+	width: 14.6rem;
+	height: 2.25rem;
+	line-height: 2.25rem;
+	background-image: url(../images/bbbtn_03.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:14.6rem 2.25rem;
+	font-size: 0.8rem;
+	color: #D63320;
+	border: none;
+	display: block;
+	background-color: transparent;
+	border: 1px transparent solid;
+}
+.bbbSty:hover{
+	color: #fff;
+}
+
+
+.fuwx{
+	width: 7rem;
+	margin: 0 auto;
+	position: relative;
+	height:1rem ;
+	line-height: 1rem;
+	font-size: 0.5rem;
+	color:#ccc;
+    padding-left: 0.3rem;
+}
+.fuwx a{
+	font-size: 0.5rem;
+	color:#248af5;
+}
+.fwxIco{
+    width: 0.625rem;
+    height: 0.6rem;
+    background-image: url(../images/radios0.png);
+    background-position: 0rem 0rem;
+    background-repeat: no-repeat;
+    background-size: 0.525rem 0.5rem;
+    display: inline;
+    position: absolute;
+    left: 0rem;
+    top: 0.28rem;
+    padding-right: .5rem;
+}
+.fwxIcoYes{
+	  background-image: url(../images/radios1.png) !important;
+}
+.tishiText{
+	height: 1.6rem;
+    width: 16rem;
+    color: #b1630f;
+    font-size: 0.5rem;
+    background-color: #ffe185;
+    line-height: 0.6rem;
+    padding-top: 0.4rem;
+}
+.qigouIpt{
+	width: 100%;
+	height: 1.5rem;
+	margin-top: 0.5rem;
+	border: none;
+	color: #333;
+	font-size: 0.6rem;
+	text-indent: 0.2rem;
+	border-radius: 0.1rem;
+}
+.qigouText {
+    top: 0.2rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.5rem;
+    color: #ccc;
+    width: 6rem;
+    text-indent: 2.5rem;
+    text-align: left;
+    text-indent: 0.2rem;
+    left: 2rem;
+	position: relative;
+	float: left;
+}
+.shareBox{
+	width: 100%;
+	height: 100%;
+	font-size: .4rem;
+	line-height: 0.5rem;
+	color: #D63320;
+	text-align:left;
+	background: url(../images/black80.png) repeat;
+	display: block;
+	padding: 0.2rem;
+	position: fixed;
+}
+.shareBox img{
+	width: 16rem;
+	height: 6.25rem;
+}
+.blueF{
+	color: #007AFF;
+}
+
+
+/*信息披露*/
+.ticketTextMain {
+	width: 13.65rem;
+	margin: 0.5rem auto 0 auto;
+	min-height: 3.5rem;
+	padding-bottom: 1.2rem;
+	font-size: 0.55rem;
+	color: #fff;
+	padding: 0.675rem 0.675rem 1.2rem 0.675rem;
+	background-color: #c41700;
+}
+.ticketGsjs {
+	height: 2.5rem;
+	font-size: 0.5rem;
+	color: #fff;
+	word-wrap: break-word;
+	word-break: break-all;
+	text-align: left;
+}
+
+.ticketGsjs2 {
+	height: 10rem;
+	font-size: 0.55rem;
+	color: #fff;
+	word-wrap: break-word;
+	word-break: break-all;
+	position: relative;
+	margin: 0.5rem auto 0.2rem auto;
+	width: 13.65rem;
+	padding-bottom: 0.5rem;
+}
+
+.yBox {
+	width: 3.3rem;
+	height: 3.3rem;
+	position: absolute;
+	border-radius: 1.7rem;
+	font-size: 0.8rem;
+	color: #fff;
+  background-color: #fff;
+}
+
+.rebgBox {
+	background-color: #dd1d32;
+	width: 16rem;
+}
+
+.ticketGsjs2 .yBox:last-child {
+	margin-right: 0;
+}
+
+.ticketGsjs2 .yBox:nth-child(1) {
+	top: 0rem;
+	left: 0.5rem;
+	background-image: url(../images/tk01.png);
+	background-position: center;
+	background-size: 2.15rem 1.6rem;
+	background-repeat: no-repeat;
+}
+
+.ticketGsjs2 .yBox:nth-child(2) {
+	top: 0rem;
+	left: 5.3rem;
+	background-image: url(../images/tk02.png);
+	background-position: center;
+	background-size: 2.15rem 1.6rem;
+	background-repeat: no-repeat;
+}
+
+.ticketGsjs2 .yBox:nth-child(3) {
+	top: 0rem;
+	left: 10rem;
+	background-image: url(../images/tk03.png);
+	background-position: center;
+	background-size: 2.15rem 1.6rem;
+	background-repeat: no-repeat;
+}
+
+.ticketGsjs2 .yBox:nth-child(4) {
+	top: 6rem;
+	left: 0.5rem;
+	background-image: url(../images/tk04.png);
+	background-position: center;
+	background-size: 2.15rem 1.6rem;
+	background-repeat: no-repeat;
+}
+
+.ticketGsjs2 .yBox:nth-child(5) {
+	top: 6rem;
+	left: 5.3rem;
+	background-image: url(../images/tk05.png);
+	background-position: center;
+	background-size: 2.15rem 1.6rem;
+	background-repeat: no-repeat;
+}
+
+.ticketGsjs2 .yBox:nth-child(6) {
+	top: 6rem;
+	left: 10rem;
+	background-image: url(../images/tk06.png);
+	background-position: center;
+	background-size: 2.15rem 1.6rem;
+	background-repeat: no-repeat;
+}
+
+.ticketGsjs2>.yBox>span {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 3.5rem;
+	margin-left: -1.3rem;
+	width: 6rem;
+	min-height: 0.8rem;
+	text-align: left;
+	font-size: 0.55rem;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+}
+/*---------优惠券 ---------*/
+
+.salet1 {
+	left: 50%;
+	margin-left: -4.25rem;
+	top: 0.9rem;
+	width: 8.5rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.6rem;
+	color: #D63320 !important;
+}
+
+.salet2 {
+	left: 50%;
+	margin-left: -4.25rem;
+	top:2rem;
+	width: 8.5rem;
+	font-weight: bold;
+	height: 1.55rem;
+	line-height: 1.55rem;
+	font-size: 1.55rem;
+	color: #D63320 !important;
+}
+
+.salet3 {
+	left: 50%;
+	margin-left: -4.25rem;
+	top: 3.9rem;
+	width: 8.5rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.5rem;
+	color: #333;
+}
+
+.salet4 {
+	left: 50%;
+	margin-left: -4.25rem;
+	bottom: 0.35rem;
+	width: 8.5rem;
+	height: 0.3rem;
+	line-height: 0.3rem;
+	font-size: 0.3rem;
+	color: #D63320;
+}
+.b8{
+    font-size: 1rem;
+    line-height: 1rem;
+    height: 1rem;
+    color: #D63320;
+    top: 0.5rem;
+    display: block;
+    position: absolute;
+    font-weight: normal;
+    text-align: left;
+    left: 4.8rem;
+}
+.litF{
+	font-size: 0.6rem;
+	color: #D63320;
+} 
+.b9{
+    font-size: 0.4rem;
+    line-height: 0.4rem;
+    height: 0.4rem;
+    color: #999;
+    top: 1rem;
+    display: block;
+    position: absolute;
+    font-weight: normal;
+    text-align: left;
+    left: 8.8rem;
+}
+.b10{
+    font-size: 0.4rem;
+    line-height: 0.4rem;
+    height: 0.4rem;
+    color: #999;
+    bottom: 0.55rem;
+    display: block;
+    position: absolute;
+    font-weight: normal;
+    text-align: left;
+    left: 4.8rem;
+}
+
+.iptGray{
+	background-color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

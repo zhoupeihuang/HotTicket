@@ -1,0 +1,592 @@
+.maxBox {
+	position: relative;
+	margin: 0 auto;
+	width: 16rem;
+	min-height: 3rem;
+}
+
+.redBog {
+	background-color: #d93421;
+}
+.redbgss{
+	background: url(../images/aticket42.jpg) repeat;
+}
+ 
+.qhcpbgs {
+	width: 16rem;
+	min-height: 29.45rem;
+	background-image: url(../images/aticket42.jpg);
+	background-position: left top;
+	background-repeat: repeat-y;
+	background-size: 16rem 29.45rem;
+	
+	position: relative;
+	z-index: 10;
+}
+
+.qhcpHead {
+	height: 2.25rem;
+	text-align: right;
+	width: 16rem;
+	z-index: 888;
+}
+
+.tip1 {
+	width: 6rem;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	background-color: #db1600;
+	color: #fff;
+	font-size: 0.7rem;
+	text-align: center;
+	border-radius: 3rem;
+	float: right;
+	margin-right: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+.tip1 img {
+	top: -5rem;
+	width: 0.7rem;
+	height: 0.7rem;
+	margin-top: -5px;
+}
+.t60{
+	top: 1.5rem !important;
+}
+.popMsgs {
+	margin-top: 0.5rem;
+	width: 13.25rem;
+	margin: 0 auto;
+	position: relative;
+	height: 1.25rem;
+	line-height: 1.25rem;
+	background-image: url(../images/aticket8.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 13.25rem 1.25rem;
+	font-size: 0.6rem;
+	color: white;
+	z-index: 999;
+}
+.popMsgs ul li{
+	font-size: 0.5rem;
+	color: #fff;
+	float: left;
+	margin-right: 1rem;
+} 
+.qhcpBg0 {
+	margin-top: 0.5rem;
+	width: 16rem;
+	margin: 0 auto;
+	position: relative;
+	height: 11.6rem;
+	background-image: url(../images/aticket999.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 16rem 11.6rem;
+	z-index: -1;
+	margin-top: -3.5rem;
+}
+.redPNum{
+	position: relative;
+	margin: 0 auto;
+	top: 5.5rem;
+	width:10rem ;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #FFE400;
+}
+.redPNum b{
+	font-size: 0.7rem;
+	font-weight: normal;
+}
+.redPNumTit{
+	position: relative;
+	margin: 0 auto;
+	top: 5.7rem;
+	width:10rem ;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.7rem;
+	color: #FFE400;
+}
+.qhcpBg1 {
+	margin-top: 0.5rem;
+	width: 16rem;
+	margin: 0 auto;
+	position: relative;
+	height: 11.6rem;
+	background-image: url(../images/aticket99.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 16rem 11.6rem;
+	z-index: -1;
+	margin-top: -3.5rem;
+}
+
+.qhcpBg2 {
+	margin-top: 0.5rem;
+	width: 16rem;
+	margin: 0 auto;
+	position: relative;
+	height: 9.6rem;
+	background-image: url(../images/aticket55.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 16rem 9.6rem;
+}
+.qhcpBg3 {
+	top: 2.5rem;
+	margin-bottom:3rem ;
+	width: 8.325rem;
+	margin: 0 auto;
+	position: relative;
+	height: 10.55rem;
+	background-image: url(../images/aticket33.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 8.325rem 10.55rem;
+	margin-bottom: 6rem;
+}
+.qhcpBtnBox {
+	height: 3rem;
+	width: 15rem;
+	color: #fff;
+	position: relative;
+	margin: 0 auto;
+	background-image: url(../images/aticket6.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 15rem 3rem;
+}
+
+.qbb1 {
+	position: absolute;
+	top: 0.6rem;
+	height: 0.85rem;
+	line-height: 0.85rem;
+	width: 12.5rem;
+	left: 50%;
+	margin-left: -6.25rem;
+	font-size: 0.85rem;
+	color: #D63320;
+}
+
+.qbb2 {
+	position: absolute;
+	top: 2rem;
+	height: 0.65rem;
+	line-height: 0.65rem;
+	width: 12.5rem;
+	left: 50%;
+	margin-left: -6.25rem;
+	font-size: 0.65rem;
+	color: #D63320;
+}
+
+.redPacketBox {
+	width: 11.9rem;
+	position: relative;
+	height: 15.5rem;
+	background-image: url(../images/aticket7.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 11.9rem 15.5rem;
+	margin: 0 auto;
+	margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.redpTitle {
+	width: 10.4rem;
+	position: relative;
+	height: 5.8rem;
+	margin: 0 auto;
+	color: #d63320;
+	font-size: 0.7rem;
+	top: 0.7rem;
+}
+
+.hotTicketLittle {
+	width: 10.4rem;
+	position: relative;
+	height: 5.9rem;
+	
+	margin: 0 auto;
+	top: 0rem;
+}
+.huochebg{
+	background-image: url(../images/ticket12.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 10.4rem 5.9rem;
+}
+
+.hotTicketLittle span {
+	display: inline;
+	position: absolute;
+	color: #333;
+}
+
+.htl1 {
+	left: 0.7rem;
+	top: 0.85rem;
+	width: 6.5rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: left;
+	line-height: 0.5rem;
+	font-size: 0.5rem;
+}
+
+.htl2 {
+	right: 0.7rem;
+	top: 0.85rem;
+	width: 2rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.5rem;
+	text-align: right;
+}
+
+.htl3 {
+	left: 0.7rem;
+	top: 2rem;
+	width: 3.3rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.6rem;
+	text-align: left;
+	font-weight: bold;
+}
+
+.htl6 {
+	right: 0.7rem;
+	top: 2rem;
+	width: 3.3rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	font-size: 0.6rem;
+	text-align: right;
+	font-weight: bold;
+}
+
+.htl4 {
+	left: 50%;
+	margin-left: -2rem;
+	top: 1.9rem;
+	width: 4rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.5rem;
+	font-weight: bold;
+}
+
+.htl5 {
+	left: 50%;
+	margin-left: -1.1rem;
+	top: 2.35rem;
+	width: 2.2rem;
+	height: 0.35rem;
+	line-height: 0.35rem;
+}
+
+.htl5 img {
+	width: 100%;
+	height: auto;
+}
+
+.htl7 {
+	left: 0.7rem;
+	top: 3.2rem;
+	width: 6.5rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	text-align: left;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	font-size: 0.7rem;
+}
+
+.htl8 {
+	left: 50%;
+	margin-left: -4.25rem;
+	bottom: 0.35rem;
+	width: 8.5rem;
+	height: 1.1rem;
+	font-size: 0.4rem;
+	color: #D63320 !important;
+}
+
+.redpBtnBox {
+	height: 1.5rem;
+	line-height: 1.5rem;
+	border: none;
+	width: 10.2rem;
+	text-align: center;
+	color: #FD5903;
+	font-size: 0.6rem;
+	margin-top: 0.2rem;
+	color: white;
+}
+.redL30{
+	margin-left: 0.75rem;
+}
+.redpBtn{
+	height: 1.5rem;
+	line-height: 1.5rem;
+	border: none;
+	width: 4.75rem;
+	text-align: center;
+	border-radius: 0.2rem;
+	background-image: url(../images/aticket1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 4.75rem 1.5rem;
+	color: #FD5903;
+	font-size: 0.6rem;
+	margin-top: 0.2rem;
+	color: white;
+	margin: 0 auto;
+}
+
+.redpFotber {
+	height: 1.25rem;
+	line-height: 1rem;
+	width: 10.4rem;
+	color: #b1630f;
+	font-size: 0.45rem;
+	margin-top: 0.4rem;
+	position: relative;
+}
+
+.qbb3 {
+	position: absolute;
+	top: 0.2rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	width: 10rem;
+	left: 50%;
+	margin-left: -5rem;
+	font-size: 0.85rem;
+	color: #D63320;
+	overflow: hidden;
+	z-index: 888;
+}
+/*.qbb3:after{
+	content: "抢票中...";
+}*/
+.qbb3Jd {
+	position: absolute;
+	top: 0rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	width: 7.5rem;
+	left: -7.5rem;
+	font-size: 0.85rem;
+	color: #FFE400;
+	border-radius: 2rem;
+	background-image: url(../images/aticket2.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 7.5rem 1.5rem;
+	z-index: -1;
+}
+
+.moves {
+	animation: movesty 1.5s linear 0s 1;
+	transition: All 0.4s ease-in-out;
+	-webkit-transition: All 0.4s ease-in-out;
+	-moz-transition: All 0.4s ease-in-out;
+	-o-transition: All 0.4s ease-in-out;
+}
+
+@keyframes movesty {
+	0% {
+		left: -7.5rem;
+	}
+	25% {
+		left: -6.5rem;
+	}
+	50% {
+		left: -4.5rem;
+	}
+	75% {
+		left: -2.5rem;
+	}
+	100% {
+		left: 0rem;
+	}
+}
+.left0{
+	left: 0rem;
+}
+.packetNum1{
+	width: 10.4rem;
+	left: 50%;
+	top: 0rem;
+	margin-left: -5.2rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	font-size: 0.7rem;
+	color:#D63320 !important;
+}
+.packetNum2{
+	width: 10.4rem;
+	left: 50%;
+	top: 1.9rem;
+	margin-left: -5.2rem;
+	height: 1.65rem;
+	line-height: 1.65rem;
+	font-size: 1.65rem;
+	color:#D63320 !important;
+	font-weight: bold;
+}
+.packetNum3{
+	width: 10.4rem;
+	left: 50%;
+	top: 4.5rem;
+	margin-left: -5.2rem;
+	height: 1.15rem;
+	line-height: 1.15rem;
+	font-size: 0.5rem;
+	color:#D63320 !important;
+	background-color: #FFb400;
+	border-radius: 0.15rem;
+}
+/*笑脸*/
+.smileBox {
+	width: 10.4rem;
+	position: relative;
+	height: 5.9rem;
+	margin: 0 auto;
+	top: 5.5rem;
+	background-image: url(../images/1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 10.4rem 5.9rem;
+} 
+.doudong{
+	/*总花费的秒数*/
+          -webkit-animation-duration: 0.6s;
+          /*开始的秒数*/
+          -webkit-animation-delay:0s;
+          /*播放次数*/
+          -webkit-animation-iteration-count: infinite;
+
+          -moz-animation-duration: 0.6s;
+          -moz-animation-delay: 0s;
+          -moz-animation-iteration-count: infinite;
+
+          -o-animation-duration: 0.6s;
+          -o-animation-delay: 0s;
+          -0-animation-iteration-count: infinite;
+
+          -ms-animation-duration: 0.6s;
+          -ms-animation-delay: 0s;
+          -ms-animation-iteration-count:infinite;
+
+          animation-duration: 0.6s;
+          animation-delay: 0s;
+          animation-iteration-count: infinite;
+}
+@-webkit-keyframes tadame {
+  /*from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }*/
+
+  10%, 20% {
+    -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  /*to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }*/
+}
+
+@keyframes tadame {
+  /*from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }*/
+
+  10%, 20% {
+    -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  /*to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }*/
+}
+
+.tadame {
+  -webkit-animation-name: tadame;
+  animation-name: tadame;
+}
+.ffzl{
+	 /* 设置默认样式，开启3d硬件加速 */
+    -webkit-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0);
+    /* 设置动画，animation:动画名称 动画播放时长单位秒或微秒 动画播放的速度曲线linear为匀速 动画播放次数infinite为循环播放; */
+    -webkit-animation:fanzhuan 0.8s ease-in-out 1;
+    -moz-animation:fanzhuan 0.8s ease-in-out 1;
+    animation:fanzhuan 0.8s ease-in-out 1;
+}
+ 
+.hides{
+	display: none;
+}
+/*--------翻转---------*/
+@-webkit-keyframes fanzhuan{
+    0%  {
+        -webkit-transform:rotateY(0deg);
+    }
+    100% {
+        -webkit-transform:rotateY(90deg);
+    }
+}
+@-moz-keyframes fanzhuan{
+    0%  {
+        -moz-transform:rotateY(0deg);
+    }
+    100% {
+        -moz-transform:rotateY(90deg);
+    }
+}
+@keyframes fanzhuan{
+    0%  {
+        transform:rotateY(0deg);
+    }
+    100% {
+        transform:rotateY(90deg);
+    }
+}
